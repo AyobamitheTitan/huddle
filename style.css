@@ -142,21 +142,31 @@ footer{
         margin-top: -4%;
     }
 
-    .content__body{
-        font-size: 14px;
+    .main__content{
+        display: block;
+    }
+    .content__paragraph{
+        margin-top: 30px;
+        font-size: 24px;
+        align-items: center;
+        text-align: center;
     }
     
+    .content__body{
+        margin-left: 1.5rem;
+    }
+
     .main__image img{
         justify-content: center;
         align-items: center;
         margin: 40px;
-        margin-left: 1.67rem;
+        margin-left: 5.97rem;
     }
 
     footer{
         display: flex;
         align-items: flex-end;
-        height: 60vh;
+        height: 10vh;
         width: 100%;
         justify-content: center;
     }
